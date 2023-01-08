@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'poppins',sans-serif;
+}
+body{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("newyear1.webp2");
+	background: cover;
+	color: #fff;
+}
+
+#counter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
+}
+
+p{
+	font-size: 50px;
+}
+
+.newyear{
+	font-family: 'inspiration';
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 30px;
+}
+
+.box{
+	width:50px ;
+	height: 50px;
+	text-align: center;
+}
+
+.box h2{
+	font-size: 20px;
+}
+
+.box small{
+	font-size: 10px;
+}
+
+#name{
+	position: absolute;
+	top: 600px;
+	left: 500px;
+	font-family: serif;
+	}
+
+	#ragul{
+		margin-top: -40px;
+	}
+
+@media screen and (min-width: 576px){
+	.newyear{
+		font-size: 100px;
+	}
+
+	p{
+		font-size: 70px;
+	}
+
+	.box h1{
+		font-size: 30px;
+	}
+
+	.box{
+		width: 100px;
+		height: 70px;
+	}
+
+	.box small{
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.newyear{
+		font-size: 150px;
+	}
+
+	p{
+		font-size: 100px;
+	}
+
+	.box h1{
+		font-size: 50px;
+	}
+
+	.box{
+		width: 150px;
+		height: 100px;
+	}
+
+	.box small{
+		font-size: 20px;
+	}
+}
+
